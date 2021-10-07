@@ -85,7 +85,7 @@ const FeaturesSection = () => {
                                 }}>
 
                                     <Box display={'flex'} justifyContent={'center'}>
-                                        <Image src={imgSrc} width={200} height={200}/>
+                                        <Image priority={true} src={imgSrc} width={200} height={200}/>
                                     </Box>
 
                                     <Box>
