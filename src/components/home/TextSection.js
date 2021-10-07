@@ -10,7 +10,9 @@ const TextSection = () => {
                 maxWidth: '1200px',
                 margin: 'auto',
                 py: '6rem',
-                background: '#000 url(/characters.png) center/cover',
+                background: {
+                    xs: '#000',
+                    lg: '#000 url(/characters.png) center/cover'},
                 color: '#fff',
             }}>
 
