@@ -7,6 +7,7 @@ const Store = () => {
         <Box sx={{
             background: theme => theme.palette.primary.main,
             py: '6rem',
+            minHeight: '100vh',
         }}>
 
             <Container maxWidth={'xxl'}>
