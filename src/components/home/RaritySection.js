@@ -31,12 +31,13 @@ const RaritySection = () => {
 
                     <TextField sx={{
                         '& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input': {
-                            background: '#272727',
+                            background: '#171717',
                         },
                         '.css-1w2zgmd-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline': {
                             borderColor: 'rgb(255 255 255 / 26%)',
+                            background: '#171717',
                         },
-                        '& .css-10hn60g-MuiFormLabel-root-MuiInputLabel-root.Mui-disabled': {
+                        '& .Mui-disabled': {
                             fontWeight: 'bold',
                             color: '#75808A',
                         }
