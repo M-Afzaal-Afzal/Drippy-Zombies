@@ -22,7 +22,10 @@ const HeroSection = () => {
                 // minHeight: '100vh',
             }}>
 
-                <Image priority src={'/home/bg/hero.png'} width={1200} height={716}/>
+                <Image
+                    priority={true} src={'/home/bg/hero.png'}
+                    width={1200} height={716}
+                />
 
 
                 {/*<Box sx={{background: (theme) => theme.palette.primary.main}} pt={'3rem'}>*/}

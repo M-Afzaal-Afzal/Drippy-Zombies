@@ -59,7 +59,7 @@ const Header = () => {
         }, {
             id: '5',
             text: 'Store',
-            imgSrc: '/icons/hand.png',
+            imgSrc: '/icons/cabana.png',
         },
 
 

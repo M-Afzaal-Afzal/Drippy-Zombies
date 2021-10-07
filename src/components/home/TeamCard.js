@@ -28,7 +28,7 @@ const TeamCard = ({imgSrc, name, description, isWanted}) => {
                         height: '15rem',
                     }}
                 >
-                    <Image src={imgSrc} layout={'fill'} objectFit={'cover'}/>
+                    <Image priority={true} src={imgSrc} layout={'fill'} objectFit={'cover'}/>
 
                 </Box>
 
