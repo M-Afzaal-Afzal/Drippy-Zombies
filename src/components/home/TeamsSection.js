@@ -9,7 +9,7 @@ const TeamsSection = () => {
     const temaData = [
         {
             name: 'Marketing lead',
-            imgSrc: '/home/team/1.png',
+            imgSrc: '/home/team/1member.png',
             isWanted: true,
             twitter: '#',
             description: [
@@ -18,7 +18,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Brand developer',
-            imgSrc: '/home/team/2.png',
+            imgSrc: '/home/team/2member.png',
             isWanted: false,
             twitter: 'https://twitter.com/drippzombieLeo',
             description: [
@@ -27,7 +27,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Blockchain developer',
-            imgSrc: '/home/team/3.png',
+            imgSrc: '/home/team/3member.png',
             isWanted: true,
             twitter: 'https://twitter.com/VinceEth',
             description: [
@@ -36,7 +36,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Community Lead',
-            imgSrc: '/home/team/4.png',
+            imgSrc: '/home/team/4member.png',
             isWanted: false,
             twitter: 'https://twitter.com/mark_eth_',
             description: [
@@ -45,7 +45,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Product designer',
-            imgSrc: '/home/team/5.png',
+            imgSrc: '/home/team/5member.png',
             isWanted: false,
             twitter: 'https://twitter.com/Arey_eth',
             description: [
@@ -54,7 +54,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Artist',
-            imgSrc: '/home/team/6.jpg',
+            imgSrc: '/home/team/6member.jpg',
             isWanted: false,
             twitter: 'https://twitter.com/Karsingo',
             description: [
