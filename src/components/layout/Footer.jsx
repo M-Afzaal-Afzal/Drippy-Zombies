@@ -14,7 +14,7 @@ const Footer = () => {
             <Container maxWidth={'xxl'}>
                 <Stack alignItems={'center'} direction={'row'} justifyContent={'space-between'} height={'70px'}>
                     {/* Left Side*/}
-                    <Box sx={{color: '#fff'}}>
+                    <Box sx={{color: '#b3b3b3'}}>
                         2021 &copy; DrippyZoombies
                     </Box>
 

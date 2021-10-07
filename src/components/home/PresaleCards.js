@@ -89,11 +89,15 @@ const PresaleCards = () => {
                     </Box>
 
                     <Box>
-                        <Button disabled onClick={counterHandler.bind(this, 'sub')} variant={'contained'} sx={{
+                        <Box sx={{
                             marginLeft: '2rem',
-                        }} color={'primary'}>
+                            padding: '8px 1rem',
+                            background: '#565656',
+                            color: '#fff',
+                            borderRadius: '8px',
+                        }}>
                             Mint
-                        </Button>
+                        </Box>
                     </Box>
 
                 </Box>
