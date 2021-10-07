@@ -32,16 +32,24 @@ const RaritySection = () => {
 
                     <TextField sx={{
                         '& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input': {
-                            background: '#171717',
+                            borderColor: 'rgb(255 255 255 / 26%) !important',
+                            background: '#171717 !important',
+                            color: '#75808A !important',
                         },
-                        '.css-1w2zgmd-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline': {
-                            borderColor: 'rgb(255 255 255 / 26%)',
+                        '.Mui-disabled .MuiOutlinedInput-notchedOutline': {
+                            borderColor: 'rgb(255 255 255 / 26%) !important',
                             background: '#171717',
-                            color: '#75808A',
+                            color: '#75808A !important',
                         },
                         '& .Mui-disabled': {
                             fontWeight: 'bold',
-                            color: '#75808A',
+                            color: '#75808A !important' ,
+                        },
+
+                        '& input' : {
+                            borderColor: 'rgb(255 255 255 / 26%) !important',
+                            background: '#171717',
+                            color: '#75808A !important',
                         }
                     }} label="Search" color="primary" disabled/>
 
