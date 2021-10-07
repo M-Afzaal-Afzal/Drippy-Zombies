@@ -29,6 +29,7 @@ const RaritySection = () => {
                         Rarity
                     </Typography>
 
+
                     <TextField sx={{
                         '& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input': {
                             background: '#171717',
