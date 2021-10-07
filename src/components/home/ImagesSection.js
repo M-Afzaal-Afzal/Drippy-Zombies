@@ -78,7 +78,7 @@ const ImagesSection = () => {
                                     borderRadius: '15px',
                                     position: 'relative'
                                 }}>
-                                    <Image src={mysteryBox} layout={'fill'} objectFit={'cover'}/>
+                                    <Image priority={true} src={mysteryBox} layout={'fill'} objectFit={'cover'}/>
                                 </Box>
                             </SwiperSlide>
                         ))
