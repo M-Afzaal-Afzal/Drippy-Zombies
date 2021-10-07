@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 const Store = () => {
     return (
+
         <Box sx={{
             background: theme => theme.palette.primary.main,
             py: '6rem',
