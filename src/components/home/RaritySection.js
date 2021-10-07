@@ -41,6 +41,8 @@ const RaritySection = () => {
                             background: '#171717',
                             color: '#75808A !important',
                         },
+
+
                         '& .Mui-disabled': {
                             fontWeight: 'bold',
                             color: '#75808A !important' ,
