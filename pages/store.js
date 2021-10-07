@@ -8,11 +8,13 @@ const Store = () => {
             background: theme => theme.palette.primary.main,
             py: '6rem',
             minHeight: '100vh',
-        }}>
+
+        }} position={'relative'}>
+
+            <Image layout={'fill'} objectFit={'cover'} priority src={'/store.png'} width={4255} height={2492}/>
 
             <Container maxWidth={'xxl'}>
-                <Box position={'relative'}>
-                    <Image priority src={'/store.png'} width={4255} height={2492}/>
+                <Box>
                     <Box sx={{
                         position: 'absolute',
                         background: 'rgba(238,238,238,0.72)',
@@ -25,6 +27,7 @@ const Store = () => {
                         fontWeight: 'bold',
                         textTransform: 'uppercase',
                         boxShadow: theme => theme.shadows[20],
+                        textAlign: 'center',
                     }}>
                         Opening Soon
                     </Box>
