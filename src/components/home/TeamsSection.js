@@ -11,6 +11,7 @@ const TeamsSection = () => {
             name: 'Marketing lead',
             imgSrc: '/home/team/1.png',
             isWanted: true,
+            twitter: '#',
             description: [
                 'Kervork',
             ],
@@ -19,6 +20,7 @@ const TeamsSection = () => {
             name: 'Brand developer',
             imgSrc: '/home/team/2.png',
             isWanted: false,
+            twitter: 'https://twitter.com/drippzombieLeo',
             description: [
                 'Leo',
             ],
@@ -27,6 +29,7 @@ const TeamsSection = () => {
             name: 'Blockchain developer',
             imgSrc: '/home/team/3.png',
             isWanted: true,
+            twitter: 'https://twitter.com/VinceEth',
             description: [
                 'Vince',
             ],
@@ -35,6 +38,7 @@ const TeamsSection = () => {
             name: 'Community Lead',
             imgSrc: '/home/team/4.png',
             isWanted: false,
+            twitter: 'https://twitter.com/mark_eth_',
             description: [
                 'Mark',
             ],
@@ -43,6 +47,7 @@ const TeamsSection = () => {
             name: 'Product designer',
             imgSrc: '/home/team/5.png',
             isWanted: false,
+            twitter: 'https://twitter.com/Arey_eth',
             description: [
                 'Arey',
             ],
@@ -51,11 +56,12 @@ const TeamsSection = () => {
             name: 'Artist',
             imgSrc: '/home/team/6.jpg',
             isWanted: false,
+            twitter: 'https://twitter.com/Karsingo',
             description: [
                 'Karsingo',
             ],
         },
-    ]
+    ];
 
     return (
 
@@ -73,9 +79,11 @@ const TeamsSection = () => {
                         spacing={2}
                     >
                         {
-                            temaData.map(({name, description, imgSrc, isWanted}) => (
+                            temaData.map(({name,twitter, description, imgSrc, isWanted}) => (
                                 <Grid key={name} xs={12} md={12} lg={6} xl={4} item>
-                                    <Box display={'grid'} justifyContent={'center'}>
+                                    <Box component={'a'} target={'_blank'} sx={{
+                                        textDecoration: 'none',
+                                    }} href={twitter} display={'grid'} justifyContent={'center'}>
                                         <TeamCard
                                             name={name}
                                             imgSrc={imgSrc}
