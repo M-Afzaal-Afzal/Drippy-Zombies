@@ -33,7 +33,7 @@ const RaritySection = () => {
                         '& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input': {
                             background: '#171717',
                         },
-                        '.css-1w2zgmd-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline': {
+                        '.Mui-disabled .MuiOutlinedInput-notchedOutline': {
                             borderColor: 'rgb(255 255 255 / 26%)',
                             background: '#171717',
                         },
