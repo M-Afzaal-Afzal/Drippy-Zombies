@@ -23,7 +23,7 @@ const HeroSection = () => {
             }}>
 
                 <Image
-                    priority={true} src={'/home/bg/hero.png'}
+                    priority={true} src={'/home/bg/hero-img.png'}
                     width={1200} height={716}
                 />
 
