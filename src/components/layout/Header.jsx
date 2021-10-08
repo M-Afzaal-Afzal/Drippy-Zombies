@@ -292,7 +292,23 @@ const Header = () => {
                         </Box>
                     </Box>
 
-                    <Divider/>
+                    <Divider sx={{
+                        borderColor: '#222',
+                    }}/>
+
+                    <Box sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        py: '1rem',
+                    }}>
+                        <Button color={'secondary'} variant={'contained'}>
+                            Connect Wallet
+                        </Button>
+                    </Box>
+
+                    <Divider sx={{
+                        borderColor: '#222',
+                    }}/>
 
                     {
                         links.map(({text, id}) => {
