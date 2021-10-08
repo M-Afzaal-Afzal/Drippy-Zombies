@@ -52,7 +52,12 @@ const FeaturesSection = () => {
     return (
         <Box sx={{
             background: "#000",
-        }} py={'6rem'} id={'features'}>
+            py: {
+                xs: '3rem',
+                md: "4rem",
+                lg: "6rem",
+            }
+        }} id={'features'}>
 
             <Container maxWidth={'xxl'}>
 

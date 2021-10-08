@@ -23,7 +23,11 @@ const PresaleCards = () => {
     return (
         <Box sx={{
             background: (theme) => theme.palette.primary.main,
-            pb: '6rem',
+            pb: {
+                xs: '3rem',
+                md: '4rem',
+                lg: '6rem',
+            },
         }}
         >
             <Container maxWidth={'xxl'}>

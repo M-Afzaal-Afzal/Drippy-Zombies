@@ -67,9 +67,13 @@ const FaqSection = () => {
 
 
         <Box
-            py={'6rem'}
             id={'faq'}
             sx={{
+                py: {
+                    xs: '3rem',
+                    md: "4rem",
+                    lg: '6rem',
+                },
                 background: theme => theme.palette.primary.main,
             }}
         >

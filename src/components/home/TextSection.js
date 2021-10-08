@@ -9,7 +9,11 @@ const TextSection = () => {
             <Box sx={{
                 maxWidth: '1200px',
                 margin: 'auto',
-                py: '6rem',
+                py: {
+                    xs: '3rem',
+                    md: "4rem",
+                    lg: '6rem',
+                },
                 background: {
                     xs: '#000',
                     lg: '#000 url(/characters.png) center/cover'},

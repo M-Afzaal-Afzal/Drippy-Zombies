@@ -15,7 +15,10 @@ const clawMachineText = [
 const ClawMachineSection = () => {
     return (
         <Box sx={{
-            py: '4rem',
+            py: {
+                xs: '2rem',
+                lg: '4rem',
+            },
             background: '#000',
             color: '#fff',
         }}>

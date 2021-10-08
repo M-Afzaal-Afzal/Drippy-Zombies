@@ -22,7 +22,11 @@ const MintSection = () => {
     return (
         <Box sx={{
             background: theme => theme.palette.primary.main,
-            py: '5rem',
+            py: {
+                xs: '2rem',
+                md: "3rem",
+                lg: '5rem',
+            },
         }}>
             <Container maxWidth={'xxl'}>
                 <Box sx={{

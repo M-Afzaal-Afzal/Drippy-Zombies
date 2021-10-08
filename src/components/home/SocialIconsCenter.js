@@ -5,7 +5,11 @@ import Image from "next/image";
 const SocialIconsCenter = () => {
     return (
         <Box sx={{
-            pt: '6rem',
+            pt: {
+                xs: "0",
+                md: '0',
+                lg: "6rem",
+            },
             background: theme => theme.palette.primary.main,
         }}>
 

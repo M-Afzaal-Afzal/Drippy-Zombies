@@ -33,8 +33,13 @@ const RoadmapSection = () => {
 
     return (
 
-        <Box id={'roadmap'} pb={'6rem'} sx={{
+        <Box id={'roadmap'} sx={{
             background: (theme) => theme.palette.primary.main,
+            pb: {
+                xs: '3rem',
+                md: '4rem',
+                lg: "6rem",
+            }
         }}
         >
             <Container maxWidth={'xxl'}>
