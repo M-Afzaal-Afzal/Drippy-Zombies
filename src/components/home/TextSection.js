@@ -25,17 +25,32 @@ const TextSection = () => {
                         '-webkit-text-stroke-color': 'black',
                         '-webkit-text-fill-color': 'white',
                     }}>
-                        <Typography fontSize={'3rem'} fontWeight={'bold'} gutterBottom variant={'body1'}>
+                        <Typography sx={{
+                            fontSize: {
+                                xs: '2rem',
+                                lg: "3rem",
+                            }
+                        }} fontWeight={'bold'} gutterBottom variant={'body1'}>
                             Drippy Zombies
                         </Typography>
-                        <Typography fontWeight={'bold'} fontSize={'2rem'} variant={'body1'}>
+                        <Typography fontWeight={'bold'} sx={{
+                            fontSize: {
+                                xs: '1.3rem',
+                                lg: "2rem",
+                            }
+                        }} variant={'body1'}>
                             Drippy zombies are a collection of 8,000 algorithmically generated zombies, hand-drawn by
                             several
                             collaborative artists, with 500+, attributes including references from Asian culture, anime,
                             fashion, memes, and games. Real physical utility, fashion, and a play-to-earn game.
 
                         </Typography>
-                        <Typography fontWeight={'bold'} fontSize={'2rem'} variant={'body1'}>
+                        <Typography fontWeight={'bold'} sx={{
+                            fontSize: {
+                                xs: '1.3rem',
+                                lg: "2rem",
+                            }
+                        }} variant={'body1'}>
                             In addition to your drippy zombie membership, which grants holders play-to-earn and a
                             claimable
                             mystery box, you will be able to change your zombie’s clothing and appearance using content
