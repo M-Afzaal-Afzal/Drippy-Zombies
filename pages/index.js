@@ -15,6 +15,7 @@ import MintSection from "../src/components/home/MintSection";
 import TextSection from "../src/components/home/TextSection";
 import FeaturesSection from "../src/components/home/FeaturesSection";
 import ClawMachineSection from "../src/components/home/ClawMachineSection";
+import SocialIconsCenter from "../src/components/home/SocialIconsCenter";
 // import {AppBar, Box, Stack, Toolbar} from "@mui/material";
 
 export default function Index() {
@@ -37,6 +38,10 @@ export default function Index() {
 
             <Box>
                 <TextSection/>
+            </Box>
+
+            <Box>
+                <SocialIconsCenter/>
             </Box>
 
             <Box >
