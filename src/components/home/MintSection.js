@@ -57,8 +57,15 @@ const MintSection = () => {
                             padding: '1rem',
                             fontSize: '1rem',
                             color: '#fff',
+                            display: 'flex',
+                            justifyContent: 'space-between',
                         }}>
-                            Available
+                            <Box>
+                                Available
+                            </Box>
+                            <Box>
+                                8,000
+                            </Box>
                         </Box>
 
                         <Box mt={'1rem'} maxWidth={'200px'} sx={{
