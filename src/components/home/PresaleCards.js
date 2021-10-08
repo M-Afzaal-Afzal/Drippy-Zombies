@@ -32,7 +32,11 @@ const PresaleCards = () => {
                     padding: '1rem',
                     borderRadius: '8px',
                     boxShadow: theme => theme.shadows[10],
-                    display: 'flex',
+                    display: 'grid',
+                    gridTemplateColumns: {
+                        xs: '1fr',
+                        md: 'auto 1fr',
+                    },
                     alignItems: 'center',
                     color: '#fff',
                 }}>
@@ -86,19 +90,21 @@ const PresaleCards = () => {
                             <AddIcon/>
                         </Button>
 
+                        <Box>
+                            <Box sx={{
+                                marginLeft: '2rem',
+                                padding: '8px 1rem',
+                                background: '#565656',
+                                color: '#fff',
+                                borderRadius: '8px',
+                            }}>
+                                Mint
+                            </Box>
+                        </Box>
+
                     </Box>
 
-                    <Box>
-                        <Box sx={{
-                            marginLeft: '2rem',
-                            padding: '8px 1rem',
-                            background: '#565656',
-                            color: '#fff',
-                            borderRadius: '8px',
-                        }}>
-                            Mint
-                        </Box>
-                    </Box>
+
 
                 </Box>
 
