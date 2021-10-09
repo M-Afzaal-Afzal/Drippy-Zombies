@@ -33,6 +33,7 @@ const TextSection = () => {
                             fontSize: {
                                 xs: '2rem',
                                 lg: "3rem",
+                                textTransform: 'uppercase',
                             }
                         }} fontWeight={'bold'} gutterBottom variant={'body1'}>
                             Drippy Zombies

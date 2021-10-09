@@ -11,9 +11,9 @@ const TeamsSection = () => {
             name: 'Marketing lead',
             imgSrc: '/home/team/1member.png',
             isWanted: true,
-            twitter: '#',
+            twitter: 'https://twitter.com/Kevork_drip',
             description: [
-                'Kervork',
+                'Kevork',
             ],
         },
         {
@@ -54,7 +54,7 @@ const TeamsSection = () => {
         },
         {
             name: 'Artist',
-            imgSrc: '/home/team/6member.jpg',
+            imgSrc: '/home/team/6member.png',
             isWanted: false,
             twitter: 'https://twitter.com/Karsingo',
             description: [

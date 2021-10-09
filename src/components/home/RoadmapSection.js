@@ -13,11 +13,16 @@ const RoadmapSection = () => {
         >
 
             <Container maxWidth={'xxl'}>
-                <Typography fontSize={'3rem'} fontWeight={'bold'}
+                <Typography fontWeight={'bold'}
                                 textAlign={'center'}
                                 variant={'h1'}
                                 sx={{
                                     color: '#fff',
+                                    fontSize: {
+                                        xs: '1.8rem',
+                                        md: "2rem",
+                                        lg: '3rem',
+                                    }
                                 }}
                     >
                     DRIPPY ZOMBIES {' '}
